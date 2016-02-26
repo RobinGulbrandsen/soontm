@@ -1,0 +1,39 @@
+body {
+	background-color: black;
+}
+
+footer {
+	width: 99%;
+	bottom: 5px;
+	position: absolute;
+	text-align: center;
+}
+
+footer p {
+	color: gray;
+}
+
+p {
+	color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    width: 100%;
+    text-align: center;
+}
+
+#wrapper {
+	width: 80%;
+	height: 80%;
+	margin: auto;
+	background-image: url('https://62e528761d0685343e1c-f3d1b99a743ffa4142d9d7f1978d9686.ssl.cf2.rackcdn.com/files/20706/width668/dkkvsc9j-1361934641.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#text {
+	padding-top: 2em;
+	font-size: 54px;
+}
+
+#clock {
+	font-size: 100px;
+}
