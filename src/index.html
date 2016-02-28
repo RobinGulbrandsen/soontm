@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>SoonTM</title>
+    <link rel="icon" href="assets/images/icon.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- inject:css -->
+    <!-- endinject -->
+</head>
+
+<body>
+    <section id="wrapper">
+        <h1>Soon TM</h1>
+        <hr />
+        <form id="newPageForm" action="#">
+            <section>
+                <div class="left">
+                    <label>Text to be desplayed: </label>
+                </div>
+                <div class="right">
+                    <input name="text" type="text" placeholder="Text to be displayed on finished page">
+                    <label class="error"></label>
+                </div>
+            </section>
+
+            <h3>Time</h3>
+
+            <section>
+                <div class="left">
+                    <label>Count down to date:</label>
+                </div>
+                <div class="right">
+                    <input name="day" id="day" type="date">
+                    <label class="error"></label>
+                </div>
+            </section>
+            <section>
+                <div class="left">
+                    <label>Time of day:</label>
+                </div>
+                <div class="right">
+                    <input name="hour" id="hours" class="time-input" type="number" placeholder="Hr">
+                    <input name="min" id="minutes" class="time-input" type="number" placeholder="Min">
+                    <input name="sec" id="seconds" class="time-input" type="number" placeholder="Sec">
+                    <br />
+                    <span>Time goes from 00:00:00 to 23:59:59</span>
+                    <label class="error"></label>
+                </div>
+            </section>  
+
+            <h3>Image Options</h3>  
+
+            <section>
+                <div class="left">
+                    <label>Link to Background image:</label>
+                </div>
+
+                <div class="right">
+                    <input name="imageUrl" type="text" placeholder="url to an image online">
+                </div>
+            </section>
+            <section>
+                <div class="left">
+                    <label>Stretch Image</label>
+                </div>
+
+                <div class="right">
+                    <input name="isStretched" type="checkbox">
+                </div>
+            </section>
+            <section>
+                <div class="left">
+                    <label>Background Color</label>
+                </div>
+                <div class="right">
+                    <input name="backgroundColor" type="text" placeholder="#FFFFFF">
+                    <br />
+                    <span>Type in Hex value (#123456) for color, find a color here: <a href="http://www.w3schools.com/colors/colors_picker.asp">Link</a></span>
+                </div>
+            </section>
+
+            <section>
+                <div class="left"></div>
+                <div class="right">
+                    <button class="btn" type="submit">Generate Page</button>
+                </div>
+            </section>
+        </form>
+    </section>
+    <!-- inject:js -->
+    <!-- endinject -->
+</body>
+
+</html>
